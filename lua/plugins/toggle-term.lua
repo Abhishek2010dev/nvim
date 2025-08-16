@@ -5,9 +5,9 @@ return {
     local toggleterm = require("toggleterm")
 
     toggleterm.setup{
-      size = 20,
+      size = 15,
       open_mapping = [[<c-\>]],  -- default shortcut to open terminal
-      direction = "float",
+      direction = "horizontal",
       shading_factor = 2,
       start_in_insert = true,
       persist_size = true,
