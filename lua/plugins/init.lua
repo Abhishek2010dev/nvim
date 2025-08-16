@@ -16,4 +16,8 @@ return {
 		main = "ibl",
 		opts = {},
 	},
+	{
+		"karb94/neoscroll.nvim",
+		opts = {},
+	},
 }
