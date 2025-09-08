@@ -336,20 +336,17 @@ return {
 		vim.list_extend(ensure_installed_tools, {
 
 			"stylua",
-
 			"lua_ls",
-
 			"rust_analyzer",
-
 			"taplo",
-
 			"buf",
-
 			"gopls",
-
 			"goimports",
-
 			"gofumpt",
+			"ruff",
+			"ocaml-lsp",
+			"pyright",
+			"haskell-language-server",
 		})
 
 		require("mason-tool-installer").setup({ ensure_installed = ensure_installed_tools })
